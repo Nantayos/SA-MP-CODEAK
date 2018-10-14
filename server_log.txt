@@ -1,0 +1,92 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:49:38] 
+[23:49:38] Server Plugins
+[23:49:38] --------------
+[23:49:38]  Loading plugin: mysql
+[23:49:38]  >> plugin.mysql: R41-4 successfully loaded.
+[23:49:38]   Loaded.
+[23:49:38]  Loaded 1 plugins.
+
+[23:49:39] 
+[23:49:39] Filterscripts
+[23:49:39] ---------------
+[23:49:39]   Loaded 0 filterscripts.
+
+[23:49:39] Script[gamemodes/codeak.amx]: Run time error 19: "File or function is not found"
+[23:49:39] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:50:15] 
+[23:50:15] Server Plugins
+[23:50:15] --------------
+[23:50:15]  Loading plugin: mysql
+[23:50:15]  >> plugin.mysql: R41-4 successfully loaded.
+[23:50:15]   Loaded.
+[23:50:15]  Loading plugin: Whirlpool
+[23:50:15]  
+[23:50:15]  ==================
+[23:50:15]  
+[23:50:15]   Whirlpool loaded
+[23:50:15]  
+[23:50:15]  ==================
+[23:50:15]  
+[23:50:15]   Loaded.
+[23:50:15]  Loaded 2 plugins.
+
+[23:50:15] 
+[23:50:15] Filterscripts
+[23:50:15] ---------------
+[23:50:15]   Loaded 0 filterscripts.
+
+[23:50:15] MySQL connection is successful.
+[23:50:15] Script[gamemodes/codeak.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[23:50:15] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:56:00] 
+[23:56:00] Server Plugins
+[23:56:00] --------------
+[23:56:00]  Loading plugin: mysql
+[23:56:00]  >> plugin.mysql: R41-4 successfully loaded.
+[23:56:00]   Loaded.
+[23:56:00]  Loading plugin: Whirlpool
+[23:56:00]  
+[23:56:00]  ==================
+[23:56:00]  
+[23:56:00]   Whirlpool loaded
+[23:56:00]  
+[23:56:00]  ==================
+[23:56:00]  
+[23:56:00]   Loaded.
+[23:56:00]  Loaded 2 plugins.
+
+[23:56:00] 
+[23:56:00] Filterscripts
+[23:56:00] ---------------
+[23:56:00]   Loaded 0 filterscripts.
+
+[23:56:00] MySQL connection is successful.
+[23:56:00] Script[gamemodes/codeak.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[23:56:00] Number of vehicle models: 0
