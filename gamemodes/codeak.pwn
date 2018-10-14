@@ -1,3 +1,4 @@
+
 #include <a_samp>
 #include <crashdetect>   // Zeex/samp-plugin-crashdetect
 #include <foreach> // Open-GTO/foreach:v19.0
@@ -6,8 +7,8 @@
 #include <easyDialog> // Awsomedude/easyDialog:2.0
 #include <a_mysql> // pBlueG/SA-MP-MySQL
 #include <Pawn.CMD> // urShadow/Pawn.CMD
-#include <CEFix>   // aktah/SAMP-CEFix
 #include <dl-compat> // AGraber/samp-dl-compat
+#include <CEFix>   // aktah/SAMP-CEFix
 
 #define MYSQL_HOSTNAME		"localhost"
 #define MYSQL_USERNAME		"root"
@@ -20,7 +21,7 @@ new
 	PlayerIP[MAX_PLAYERS][17]
 ;
 
-native WP_Hash(buffer[], len, const str[]);
+native WP_Hash(buffer[], len, const str[]); // Southclaws/samp-whirlpool
 
 enum PlayerData
 {
@@ -31,6 +32,8 @@ enum PlayerData
 	Deaths
 };
 new PlayerInfo[MAX_PLAYERS][PlayerData];
+
+main() {}
 
 public OnGameModeInit()
 {
@@ -80,7 +83,10 @@ Dialog:DIALOG_LOGIN(playerid, response, listitem, inputtext[])
 	}
 	else
 	{
-		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "{FF0000}รหัสผ่านไม่ถูกต้อง!\n{FFFFFF}Type your correct password below to continue and sign in to your account", "เข้าสู่ระบบ", "ออกจากเกมส์");
+		new str[80];
+		format(str, sizeof(str), "{FF0000}รหัสผ่านไม่ถูกต้อง!\n{FFFFFF}โปรดกรอกรหัสผ่านด้านล่างเพื่อเข้าสู่ระบบ");
+		CE_Convert(str);
+		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", str, "เข้าสู่ระบบ", "ออกจากเกมส์");
 	}
 	return 1;
 }
@@ -90,8 +96,12 @@ Dialog:DIALOG_REGISTER(playerid, response, listitem, inputtext[])
 	if(!response)
 		return Kick(playerid);
 
-	if(strlen(inputtext) < 3) return Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "{FF0000}รหัสผ่านสั้นเกินไป!\n{FFFFFF}ต้องใช้รหัสผ่านที่มีความยาวตั้งแต่ 3 ตัวขึ้นไป", "สมัครสมาชิก", "ออกจากเกมส์");
-
+	if(strlen(inputtext) < 3) {
+		new str[144];
+		format(str, sizeof(str), "{FF0000}รหัสผ่านสั้นเกินไป!\n{FFFFFF}ต้องใช้รหัสผ่านที่มีความยาวตั้งแต่ 3 ตัวขึ้นไป");
+		CE_Convert(str);
+		return Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", str, "สมัครสมาชิก", "ออกจากเกมส์");
+	}
 	new query[300];
 	WP_Hash(PlayerInfo[playerid][Password], 129, inputtext);
 	mysql_format(Database, query, sizeof(query), "INSERT INTO `users` (`Username`, `Password`, `IP`, `Cash`, `Kills`, `Deaths`) VALUES ('%e', '%e', '%e', 0, 0, 0)", PlayerName[playerid], PlayerInfo[playerid][Password], PlayerIP[playerid]);
@@ -129,6 +139,9 @@ public LoadPlayer(playerid)
 	cache_get_value_name_int(0, "Deaths", PlayerInfo[playerid][Deaths]);
 
 	GivePlayerMoney(playerid, PlayerInfo[playerid][Cash]);
+
+	SetSpawnInfo(playerid, NO_TEAM, 0, 0.0, 0.0, 0.0, 0.0, 0, 0, 0, 0, 0, 0);
+	SpawnPlayer(playerid);
 	return 1;
 }
 
@@ -146,5 +159,53 @@ forward RegisterPlayer(playerid);
 public RegisterPlayer(playerid)
 {
 	PlayerInfo[playerid][ID] = cache_insert_id();
+
+	new query[140];
+	mysql_format(Database, query, sizeof(query), "SELECT `Password`, `ID` FROM `users` WHERE `Username` = '%e' LIMIT 0, 1", PlayerName[playerid]); // We are selecting the password and the ID from the player's name
+	mysql_tquery(Database, query, "CheckPlayer", "i", playerid);
+	return 1;
+}
+
+public OnPlayerSpawn(playerid) {
+
+    TogglePlayerSpectating(playerid, false);
+	SetPlayerPos(playerid, 0, 0, 3);
+
+	CE_SendClientMessage(playerid, -1, "{ff0000}ยินดี{ff0040}ต้อนรับ{ff0080}เข้าสู่{ff00bf}เซิร์ฟเวอร์ {ff8000}SA-MP CODEAK");
+}
+
+public OnPlayerCommandReceived(playerid, cmd[], params[], flags)
+{
+    return 1;
+}
+
+public OnPlayerCommandPerformed(playerid, cmd[], params[], result, flags)
+{
+    if(result == -1)
+    {
+        SendClientMessage(playerid, -1, "{00FFFF}ERROR: {FFFFFF}เกิดข้อผิดพลาดในการใช้คำสั่ง");
+        return 0;
+    }
+    return 1;
+}
+
+CMD:3d(playerid, params[]) {
+	new Float:PosX, Float:PosY, Float:PosZ;
+	GetPlayerPos(playerid, PosX, PosY, PosZ);
+
+	new string[144];
+	format(string, sizeof(string), "Dynamic 3DText: {ff0000}ยินดี{ff0040}ต้อนรับ{ff0080}เข้าสู่{ff00bf}เซิร์ฟเวอร์ {ff8000}SA-MP CODEAK");
+	CreateDynamic3DTextLabel(string, -1, PosX, PosY, PosZ, 20.0);
+	return 1;
+}
+
+CMD:fix3d(playerid, params[]) {
+	new Float:PosX, Float:PosY, Float:PosZ;
+	GetPlayerPos(playerid, PosX, PosY, PosZ);
+
+	new string[144];
+	format(string, sizeof(string), "Fix Dynamic 3DText: {ff0000}ยินดี{ff0040}ต้อนรับ{ff0080}เข้าสู่{ff00bf}เซิร์ฟเวอร์ {ff8000}SA-MP CODEAK");
+	CE_Convert(string);
+	CreateDynamic3DTextLabel(string, -1, PosX, PosY, PosZ, 20.0);
 	return 1;
 }

@@ -90,3 +90,1820 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [23:56:00] MySQL connection is successful.
 [23:56:00] Script[gamemodes/codeak.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
 [23:56:00] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:07:07] language = ""  (string)
+[00:07:07] 
+[00:07:07] Server Plugins
+[00:07:07] --------------
+[00:07:07]  Loading plugin: mysql
+[00:07:07]  >> plugin.mysql: R41-4 successfully loaded.
+[00:07:07]   Loaded.
+[00:07:07]  Loading plugin: CEFix
+[00:07:07]  =======================================
+[00:07:07]   ** Color Embed by Aktah loaded
+[00:07:07]  =======================================
+[00:07:07]   Loaded.
+[00:07:07]  Loading plugin: pawncmd
+[00:07:07] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:07:07]   Loaded.
+[00:07:07]  Loading plugin: crashdetect
+[00:07:07]   CrashDetect plugin 4.19.4
+[00:07:07]   Loaded.
+[00:07:07]  Loading plugin: pawnraknet
+[00:07:07] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:07:07]   Loaded.
+[00:07:07]  Loading plugin: streamer
+[00:07:07] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:07:07]   Loaded.
+[00:07:07]  Loading plugin: sscanf
+[00:07:07] 
+
+[00:07:07]  ===============================
+
+[00:07:07]       sscanf plugin loaded.     
+
+[00:07:07]          Version:  2.8.2        
+
+[00:07:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:07:07]  ===============================
+
+[00:07:07]   Loaded.
+[00:07:07]  Loaded 7 plugins.
+
+[00:07:07] 
+[00:07:07] Filterscripts
+[00:07:07] ---------------
+[00:07:07]   Loaded 0 filterscripts.
+
+[00:07:07] [debug] Run time error 19: "File or function is not found"
+[00:07:07] [debug]  WP_Hash
+[00:07:07] [debug] Run time error 19: "File or function is not found"
+[00:07:07] [debug]  WP_Hash
+[00:07:07] Script[gamemodes/codeak.amx]: Run time error 19: "File or function is not found"
+[00:07:07] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:09:31] 
+[00:09:31] Server Plugins
+[00:09:31] --------------
+[00:09:31]  Loading plugin: mysql
+[00:09:31]  >> plugin.mysql: R41-4 successfully loaded.
+[00:09:31]   Loaded.
+[00:09:31]  Loading plugin: CEFix
+[00:09:31]  =======================================
+[00:09:31]   ** Color Embed by Aktah loaded
+[00:09:31]  =======================================
+[00:09:31]   Loaded.
+[00:09:31]  Loading plugin: pawncmd
+[00:09:31] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:09:31]   Loaded.
+[00:09:31]  Loading plugin: crashdetect
+[00:09:31]   CrashDetect plugin 4.19.4
+[00:09:31]   Loaded.
+[00:09:31]  Loading plugin: pawnraknet
+[00:09:31] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:09:31]   Loaded.
+[00:09:31]  Loading plugin: streamer
+[00:09:31] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:09:31]   Loaded.
+[00:09:31]  Loading plugin: sscanf
+[00:09:31] 
+
+[00:09:31]  ===============================
+
+[00:09:31]       sscanf plugin loaded.     
+
+[00:09:31]          Version:  2.8.2        
+
+[00:09:31]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:09:31]  ===============================
+
+[00:09:31]   Loaded.
+[00:09:31]  Loaded 7 plugins.
+
+[00:09:31] 
+[00:09:31] Filterscripts
+[00:09:31] ---------------
+[00:09:31]   Loaded 0 filterscripts.
+
+[00:09:31] [debug] Run time error 19: "File or function is not found"
+[00:09:31] [debug]  WP_Hash
+[00:09:31] [debug] Run time error 19: "File or function is not found"
+[00:09:31] [debug]  WP_Hash
+[00:09:31] Script[gamemodes/codeak.amx]: Run time error 19: "File or function is not found"
+[00:09:31] Number of vehicle models: 0
+Console input: exit
+[00:09:37] --- Server Shutting Down.
+[00:09:37] [debug] Run time error 19: "File or function is not found"
+[00:09:37] [debug]  WP_Hash
+[00:09:37] plugin.mysql: Unloading plugin...
+[00:09:37] plugin.mysql: Plugin unloaded.
+[00:09:37]  =======================================
+[00:09:37]   ** Color Embed by Aktah unloaded
+[00:09:37]  =======================================
+[00:09:37] Pawn.CMD plugin v3.2.0 by urShadow has been unloaded
+[00:09:37] Pawn.RakNet plugin v1.2.0 by urShadow unloaded
+[00:09:37] 
+
+*** Streamer Plugin v2.9.3 by Incognito unloaded ***
+
+[00:09:37] 
+
+[00:09:37]  ===============================
+
+[00:09:37]      sscanf plugin unloaded.    
+
+[00:09:37]  ===============================
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:10:38] 
+[00:10:38] Server Plugins
+[00:10:38] --------------
+[00:10:38]  Loading plugin: mysql
+[00:10:38]  >> plugin.mysql: R41-4 successfully loaded.
+[00:10:38]   Loaded.
+[00:10:38]  Loading plugin: CEFix
+[00:10:38]  =======================================
+[00:10:38]   ** Color Embed by Aktah loaded
+[00:10:38]  =======================================
+[00:10:38]   Loaded.
+[00:10:38]  Loading plugin: pawncmd
+[00:10:38] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:10:38]   Loaded.
+[00:10:38]  Loading plugin: crashdetect
+[00:10:38]   CrashDetect plugin 4.19.4
+[00:10:38]   Loaded.
+[00:10:38]  Loading plugin: pawnraknet
+[00:10:38] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:10:38]   Loaded.
+[00:10:38]  Loading plugin: streamer
+[00:10:38] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:10:38]   Loaded.
+[00:10:38]  Loading plugin: sscanf
+[00:10:38] 
+
+[00:10:38]  ===============================
+
+[00:10:38]       sscanf plugin loaded.     
+
+[00:10:38]          Version:  2.8.2        
+
+[00:10:38]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:10:38]  ===============================
+
+[00:10:38]   Loaded.
+[00:10:38]  Loaded 7 plugins.
+
+[00:10:38] 
+[00:10:38] Filterscripts
+[00:10:38] ---------------
+[00:10:38]   Loaded 0 filterscripts.
+
+[00:10:38] [debug] Run time error 19: "File or function is not found"
+[00:10:38] [debug]  WP_Hash
+[00:10:38] [debug] Run time error 19: "File or function is not found"
+[00:10:38] [debug]  WP_Hash
+[00:10:38] Script[gamemodes/codeak.amx]: Run time error 19: "File or function is not found"
+[00:10:38] Number of vehicle models: 0
+Console input: exit
+[00:11:09] --- Server Shutting Down.
+[00:11:09] [debug] Run time error 19: "File or function is not found"
+[00:11:09] [debug]  WP_Hash
+[00:11:09] plugin.mysql: Unloading plugin...
+[00:11:09] plugin.mysql: Plugin unloaded.
+[00:11:09]  =======================================
+[00:11:09]   ** Color Embed by Aktah unloaded
+[00:11:09]  =======================================
+[00:11:09] Pawn.CMD plugin v3.2.0 by urShadow has been unloaded
+[00:11:09] Pawn.RakNet plugin v1.2.0 by urShadow unloaded
+[00:11:09] 
+
+*** Streamer Plugin v2.9.3 by Incognito unloaded ***
+
+[00:11:09] 
+
+[00:11:09]  ===============================
+
+[00:11:09]      sscanf plugin unloaded.    
+
+[00:11:09]  ===============================
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:14:38] 
+[00:14:38] Server Plugins
+[00:14:38] --------------
+[00:14:38]  Loading plugin: mysql
+[00:14:38]  >> plugin.mysql: R41-4 successfully loaded.
+[00:14:38]   Loaded.
+[00:14:38]  Loading plugin: CEFix
+[00:14:38]  =======================================
+[00:14:38]   ** Color Embed by Aktah loaded
+[00:14:38]  =======================================
+[00:14:38]   Loaded.
+[00:14:38]  Loading plugin: pawncmd
+[00:14:38] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:14:38]   Loaded.
+[00:14:38]  Loading plugin: crashdetect
+[00:14:38]   CrashDetect plugin 4.19.4
+[00:14:38]   Loaded.
+[00:14:38]  Loading plugin: pawnraknet
+[00:14:38] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:14:38]   Loaded.
+[00:14:38]  Loading plugin: streamer
+[00:14:38] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:14:38]   Loaded.
+[00:14:38]  Loading plugin: sscanf
+[00:14:38] 
+
+[00:14:38]  ===============================
+
+[00:14:38]       sscanf plugin loaded.     
+
+[00:14:38]          Version:  2.8.2        
+
+[00:14:38]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:14:38]  ===============================
+
+[00:14:38]   Loaded.
+[00:14:38]  Loaded 7 plugins.
+
+[00:14:39] 
+[00:14:39] Filterscripts
+[00:14:39] ---------------
+[00:14:39]   Loaded 0 filterscripts.
+
+[00:14:39] [debug] Run time error 19: "File or function is not found"
+[00:14:39] [debug]  WP_Hash
+[00:14:39] [debug] Run time error 19: "File or function is not found"
+[00:14:39] [debug]  WP_Hash
+[00:14:39] Script[gamemodes/codeak.amx]: Run time error 19: "File or function is not found"
+[00:14:39] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:15:05] 
+[00:15:05] Server Plugins
+[00:15:05] --------------
+[00:15:05]  Loading plugin: mysql
+[00:15:05]  >> plugin.mysql: R41-4 successfully loaded.
+[00:15:05]   Loaded.
+[00:15:05]  Loading plugin: CEFix
+[00:15:05]  =======================================
+[00:15:05]   ** Color Embed by Aktah loaded
+[00:15:05]  =======================================
+[00:15:05]   Loaded.
+[00:15:05]  Loading plugin: pawncmd
+[00:15:05] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:15:05]   Loaded.
+[00:15:05]  Loading plugin: crashdetect
+[00:15:05]   CrashDetect plugin 4.19.4
+[00:15:05]   Loaded.
+[00:15:05]  Loading plugin: pawnraknet
+[00:15:05] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:15:05]   Loaded.
+[00:15:05]  Loading plugin: streamer
+[00:15:05] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:15:05]   Loaded.
+[00:15:05]  Loading plugin: sscanf
+[00:15:05] 
+
+[00:15:05]  ===============================
+
+[00:15:05]       sscanf plugin loaded.     
+
+[00:15:05]          Version:  2.8.2        
+
+[00:15:05]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:15:05]  ===============================
+
+[00:15:05]   Loaded.
+[00:15:05]  Loaded 7 plugins.
+
+[00:15:05] 
+[00:15:05] Filterscripts
+[00:15:05] ---------------
+[00:15:05]   Loaded 0 filterscripts.
+
+[00:15:05] [debug] Run time error 19: "File or function is not found"
+[00:15:05] [debug]  WP_Hash
+[00:15:05] [debug] Run time error 19: "File or function is not found"
+[00:15:05] [debug]  WP_Hash
+[00:15:05] Script[gamemodes/codeak.amx]: Run time error 19: "File or function is not found"
+[00:15:05] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:15:28] 
+[00:15:28] Server Plugins
+[00:15:28] --------------
+[00:15:28]  Loading plugin: mysql
+[00:15:28]  >> plugin.mysql: R41-4 successfully loaded.
+[00:15:28]   Loaded.
+[00:15:28]  Loading plugin: CEFix
+[00:15:28]  =======================================
+[00:15:28]   ** Color Embed by Aktah loaded
+[00:15:28]  =======================================
+[00:15:28]   Loaded.
+[00:15:28]  Loading plugin: pawncmd
+[00:15:28] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:15:28]   Loaded.
+[00:15:28]  Loading plugin: crashdetect
+[00:15:28]   CrashDetect plugin 4.19.4
+[00:15:28]   Loaded.
+[00:15:28]  Loading plugin: pawnraknet
+[00:15:28] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:15:28]   Loaded.
+[00:15:28]  Loading plugin: streamer
+[00:15:28] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:15:28]   Loaded.
+[00:15:28]  Loading plugin: sscanf
+[00:15:28] 
+
+[00:15:28]  ===============================
+
+[00:15:28]       sscanf plugin loaded.     
+
+[00:15:28]          Version:  2.8.2        
+
+[00:15:28]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:15:28]  ===============================
+
+[00:15:28]   Loaded.
+[00:15:28]  Loaded 7 plugins.
+
+[00:15:28] 
+[00:15:28] Filterscripts
+[00:15:28] ---------------
+[00:15:28]   Loaded 0 filterscripts.
+
+[00:15:28] [debug] Run time error 19: "File or function is not found"
+[00:15:28] [debug]  WP_Hash
+[00:15:28] [debug] Run time error 19: "File or function is not found"
+[00:15:28] [debug]  WP_Hash
+[00:15:28] Script[gamemodes/codeak.amx]: Run time error 19: "File or function is not found"
+[00:15:28] Number of vehicle models: 0
+Console input: exit
+[00:16:17] --- Server Shutting Down.
+[00:16:17] [debug] Run time error 19: "File or function is not found"
+[00:16:17] [debug]  WP_Hash
+[00:16:17] plugin.mysql: Unloading plugin...
+[00:16:17] plugin.mysql: Plugin unloaded.
+[00:16:17]  =======================================
+[00:16:17]   ** Color Embed by Aktah unloaded
+[00:16:17]  =======================================
+[00:16:17] Pawn.CMD plugin v3.2.0 by urShadow has been unloaded
+[00:16:17] Pawn.RakNet plugin v1.2.0 by urShadow unloaded
+[00:16:17] 
+
+*** Streamer Plugin v2.9.3 by Incognito unloaded ***
+
+[00:16:17] 
+
+[00:16:17]  ===============================
+
+[00:16:17]      sscanf plugin unloaded.    
+
+[00:16:17]  ===============================
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:16:22] 
+[00:16:22] Server Plugins
+[00:16:22] --------------
+[00:16:22]  Loading plugin: sscanf
+[00:16:22] 
+
+[00:16:22]  ===============================
+
+[00:16:22]       sscanf plugin loaded.     
+
+[00:16:22]          Version:  2.8.2        
+
+[00:16:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:16:22]  ===============================
+
+[00:16:22]   Loaded.
+[00:16:22]  Loaded 1 plugins.
+
+[00:16:22] 
+[00:16:22] Filterscripts
+[00:16:22] ---------------
+[00:16:22]   Loaded 0 filterscripts.
+
+[00:16:22] Script[gamemodes/codeak.amx]: Run time error 19: "File or function is not found"
+[00:16:22] Number of vehicle models: 0
+Console input: exit
+[00:16:30] --- Server Shutting Down.
+[00:16:30] 
+
+[00:16:30]  ===============================
+
+[00:16:30]      sscanf plugin unloaded.    
+
+[00:16:30]  ===============================
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:16:44] 
+[00:16:44] Server Plugins
+[00:16:44] --------------
+[00:16:44]  Loading plugin: mysql
+[00:16:44]  >> plugin.mysql: R41-4 successfully loaded.
+[00:16:44]   Loaded.
+[00:16:44]  Loading plugin: CEFix
+[00:16:44]  =======================================
+[00:16:44]   ** Color Embed by Aktah loaded
+[00:16:44]  =======================================
+[00:16:44]   Loaded.
+[00:16:44]  Loading plugin: pawncmd
+[00:16:44] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:16:44]   Loaded.
+[00:16:44]  Loading plugin: crashdetect
+[00:16:44]   CrashDetect plugin 4.19.4
+[00:16:44]   Loaded.
+[00:16:44]  Loading plugin: pawnraknet
+[00:16:44] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:16:44]   Loaded.
+[00:16:44]  Loading plugin: streamer
+[00:16:44] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:16:44]   Loaded.
+[00:16:44]  Loading plugin: sscanf
+[00:16:44] 
+
+[00:16:44]  ===============================
+
+[00:16:44]       sscanf plugin loaded.     
+
+[00:16:44]          Version:  2.8.2        
+
+[00:16:44]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:16:44]  ===============================
+
+[00:16:44]   Loaded.
+[00:16:44]  Loading plugin: Whirlpool
+[00:16:44]  
+[00:16:44]  ==================
+[00:16:44]  
+[00:16:44]   Whirlpool loaded
+[00:16:44]  
+[00:16:44]  ==================
+[00:16:44]  
+[00:16:44]   Loaded.
+[00:16:44]  Loaded 8 plugins.
+
+[00:16:44] 
+[00:16:44] Filterscripts
+[00:16:44] ---------------
+[00:16:44]   Loaded 0 filterscripts.
+
+[00:16:44] AMX (43698344) loaded
+[00:16:44] MySQL connection is successful.
+[00:16:44] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[00:16:44] Script[gamemodes/codeak.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[00:16:44] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:17:22] 
+[00:17:22] Server Plugins
+[00:17:22] --------------
+[00:17:22]  Loading plugin: mysql
+[00:17:22]  >> plugin.mysql: R41-4 successfully loaded.
+[00:17:22]   Loaded.
+[00:17:22]  Loading plugin: CEFix
+[00:17:22]  =======================================
+[00:17:22]   ** Color Embed by Aktah loaded
+[00:17:22]  =======================================
+[00:17:22]   Loaded.
+[00:17:22]  Loading plugin: pawncmd
+[00:17:22] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:17:22]   Loaded.
+[00:17:22]  Loading plugin: crashdetect
+[00:17:22]   CrashDetect plugin 4.19.4
+[00:17:22]   Loaded.
+[00:17:22]  Loading plugin: pawnraknet
+[00:17:22] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:17:22]   Loaded.
+[00:17:22]  Loading plugin: streamer
+[00:17:22] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:17:22]   Loaded.
+[00:17:22]  Loading plugin: sscanf
+[00:17:22] 
+
+[00:17:22]  ===============================
+
+[00:17:22]       sscanf plugin loaded.     
+
+[00:17:22]          Version:  2.8.2        
+
+[00:17:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:17:22]  ===============================
+
+[00:17:22]   Loaded.
+[00:17:22]  Loading plugin: Whirlpool
+[00:17:22]  
+[00:17:22]  ==================
+[00:17:22]  
+[00:17:22]   Whirlpool loaded
+[00:17:22]  
+[00:17:22]  ==================
+[00:17:22]  
+[00:17:22]   Loaded.
+[00:17:22]  Loaded 8 plugins.
+
+[00:17:22] 
+[00:17:22] Filterscripts
+[00:17:22] ---------------
+[00:17:22]   Loaded 0 filterscripts.
+
+[00:17:22] AMX (44615848) loaded
+[00:17:22] MySQL connection is successful.
+[00:17:22] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:18:08] 
+[00:18:08] Server Plugins
+[00:18:08] --------------
+[00:18:08]  Loading plugin: mysql
+[00:18:08]  >> plugin.mysql: R41-4 successfully loaded.
+[00:18:08]   Loaded.
+[00:18:08]  Loading plugin: CEFix
+[00:18:08]  =======================================
+[00:18:08]   ** Color Embed by Aktah loaded
+[00:18:08]  =======================================
+[00:18:08]   Loaded.
+[00:18:08]  Loading plugin: pawncmd
+[00:18:08] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:18:08]   Loaded.
+[00:18:08]  Loading plugin: crashdetect
+[00:18:08]   CrashDetect plugin 4.19.4
+[00:18:08]   Loaded.
+[00:18:08]  Loading plugin: pawnraknet
+[00:18:08] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:18:08]   Loaded.
+[00:18:08]  Loading plugin: streamer
+[00:18:08] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:18:08]   Loaded.
+[00:18:08]  Loading plugin: sscanf
+[00:18:08] 
+
+[00:18:08]  ===============================
+
+[00:18:08]       sscanf plugin loaded.     
+
+[00:18:08]          Version:  2.8.2        
+
+[00:18:08]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:18:08]  ===============================
+
+[00:18:08]   Loaded.
+[00:18:08]  Loading plugin: Whirlpool
+[00:18:08]  
+[00:18:08]  ==================
+[00:18:08]  
+[00:18:08]   Whirlpool loaded
+[00:18:08]  
+[00:18:08]  ==================
+[00:18:08]  
+[00:18:08]   Loaded.
+[00:18:08]  Loaded 8 plugins.
+
+[00:18:08] 
+[00:18:08] Filterscripts
+[00:18:08] ---------------
+[00:18:08]   Loaded 0 filterscripts.
+
+[00:18:08] AMX (44746920) loaded
+[00:18:08] MySQL connection is successful.
+[00:18:08] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:19:30] 
+[00:19:30] Server Plugins
+[00:19:30] --------------
+[00:19:30]  Loading plugin: sscanf
+[00:19:30] 
+
+[00:19:30]  ===============================
+
+[00:19:30]       sscanf plugin loaded.     
+
+[00:19:30]          Version:  2.8.2        
+
+[00:19:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:19:30]  ===============================
+
+[00:19:30]   Loaded.
+[00:19:30]  Loaded 1 plugins.
+
+[00:19:30] 
+[00:19:30] Filterscripts
+[00:19:30] ---------------
+[00:19:30]   Loaded 0 filterscripts.
+
+[00:19:30] Script[gamemodes/codeak.amx]: Run time error 19: "File or function is not found"
+[00:19:30] Number of vehicle models: 0
+Console input: exit
+[00:19:42] --- Server Shutting Down.
+[00:19:42] 
+
+[00:19:42]  ===============================
+
+[00:19:42]      sscanf plugin unloaded.    
+
+[00:19:42]  ===============================
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:19:47] 
+[00:19:47] Server Plugins
+[00:19:47] --------------
+[00:19:47]  Loading plugin: mysql
+[00:19:47]  >> plugin.mysql: R41-4 successfully loaded.
+[00:19:47]   Loaded.
+[00:19:47]  Loading plugin: CEFix
+[00:19:47]  =======================================
+[00:19:47]   ** Color Embed by Aktah loaded
+[00:19:47]  =======================================
+[00:19:47]   Loaded.
+[00:19:47]  Loading plugin: pawncmd
+[00:19:47] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:19:47]   Loaded.
+[00:19:47]  Loading plugin: crashdetect
+[00:19:47]   CrashDetect plugin 4.19.4
+[00:19:47]   Loaded.
+[00:19:47]  Loading plugin: pawnraknet
+[00:19:47] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:19:47]   Loaded.
+[00:19:47]  Loading plugin: streamer
+[00:19:47] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:19:47]   Loaded.
+[00:19:47]  Loading plugin: sscanf
+[00:19:47] 
+
+[00:19:47]  ===============================
+
+[00:19:47]       sscanf plugin loaded.     
+
+[00:19:47]          Version:  2.8.2        
+
+[00:19:47]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:19:47]  ===============================
+
+[00:19:47]   Loaded.
+[00:19:47]  Loading plugin: Whirlpool
+[00:19:47]  
+[00:19:47]  ==================
+[00:19:47]  
+[00:19:47]   Whirlpool loaded
+[00:19:47]  
+[00:19:47]  ==================
+[00:19:47]  
+[00:19:47]   Loaded.
+[00:19:47]  Loaded 8 plugins.
+
+[00:19:47] 
+[00:19:47] Filterscripts
+[00:19:47] ---------------
+[00:19:47]   Loaded 0 filterscripts.
+
+[00:19:47] AMX (43698344) loaded
+[00:19:47] MySQL connection is successful.
+[00:19:47] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:20:07] 
+[00:20:07] Server Plugins
+[00:20:07] --------------
+[00:20:07]  Loading plugin: mysql
+[00:20:07]  >> plugin.mysql: R41-4 successfully loaded.
+[00:20:07]   Loaded.
+[00:20:07]  Loading plugin: CEFix
+[00:20:07]  =======================================
+[00:20:07]   ** Color Embed by Aktah loaded
+[00:20:07]  =======================================
+[00:20:07]   Loaded.
+[00:20:07]  Loading plugin: pawncmd
+[00:20:07] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:20:07]   Loaded.
+[00:20:07]  Loading plugin: crashdetect
+[00:20:07]   CrashDetect plugin 4.19.4
+[00:20:07]   Loaded.
+[00:20:07]  Loading plugin: pawnraknet
+[00:20:07] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:20:07]   Loaded.
+[00:20:07]  Loading plugin: streamer
+[00:20:07] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:20:07]   Loaded.
+[00:20:07]  Loading plugin: sscanf
+[00:20:07] 
+
+[00:20:07]  ===============================
+
+[00:20:07]       sscanf plugin loaded.     
+
+[00:20:07]          Version:  2.8.2        
+
+[00:20:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:20:07]  ===============================
+
+[00:20:07]   Loaded.
+[00:20:07]  Loading plugin: Whirlpool
+[00:20:07]  
+[00:20:07]  ==================
+[00:20:07]  
+[00:20:07]   Whirlpool loaded
+[00:20:07]  
+[00:20:07]  ==================
+[00:20:07]  
+[00:20:07]   Loaded.
+[00:20:07]  Loaded 8 plugins.
+
+[00:20:07] 
+[00:20:07] Filterscripts
+[00:20:07] ---------------
+[00:20:07]   Loaded 0 filterscripts.
+
+[00:20:07] AMX (43436200) loaded
+[00:20:07] MySQL connection is successful.
+[00:20:07] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:20:55] 
+[00:20:55] Server Plugins
+[00:20:55] --------------
+[00:20:55]  Loading plugin: mysql
+[00:20:55]  >> plugin.mysql: R41-4 successfully loaded.
+[00:20:55]   Loaded.
+[00:20:55]  Loading plugin: CEFix
+[00:20:55]  =======================================
+[00:20:55]   ** Color Embed by Aktah loaded
+[00:20:55]  =======================================
+[00:20:55]   Loaded.
+[00:20:55]  Loading plugin: pawncmd
+[00:20:55] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:20:55]   Loaded.
+[00:20:55]  Loading plugin: crashdetect
+[00:20:55]   CrashDetect plugin 4.19.4
+[00:20:55]   Loaded.
+[00:20:55]  Loading plugin: pawnraknet
+[00:20:55] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:20:55]   Loaded.
+[00:20:55]  Loading plugin: streamer
+[00:20:55] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:20:55]   Loaded.
+[00:20:55]  Loading plugin: sscanf
+[00:20:55] 
+
+[00:20:55]  ===============================
+
+[00:20:55]       sscanf plugin loaded.     
+
+[00:20:55]          Version:  2.8.2        
+
+[00:20:55]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:20:55]  ===============================
+
+[00:20:55]   Loaded.
+[00:20:55]  Loading plugin: Whirlpool
+[00:20:55]  
+[00:20:55]  ==================
+[00:20:55]  
+[00:20:55]   Whirlpool loaded
+[00:20:55]  
+[00:20:55]  ==================
+[00:20:55]  
+[00:20:55]   Loaded.
+[00:20:55]  Loaded 8 plugins.
+
+[00:20:55] 
+[00:20:55] Filterscripts
+[00:20:55] ---------------
+[00:20:55]   Loaded 0 filterscripts.
+
+[00:20:55] AMX (44091560) loaded
+[00:20:55] MySQL connection is successful.
+[00:20:55] Number of vehicle models: 0
+[00:21:20] [connection] incoming connection: 127.0.0.1:60537 id: 0
+[00:21:20] [join] srysgag has joined the server (0:127.0.0.1)
+[00:21:32] [chat] [srysgag]: .
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:25:51] 
+[00:25:51] Server Plugins
+[00:25:51] --------------
+[00:25:51]  Loading plugin: mysql
+[00:25:51]  >> plugin.mysql: R41-4 successfully loaded.
+[00:25:51]   Loaded.
+[00:25:51]  Loading plugin: CEFix
+[00:25:51]  =======================================
+[00:25:51]   ** Color Embed by Aktah loaded
+[00:25:51]  =======================================
+[00:25:51]   Loaded.
+[00:25:51]  Loading plugin: pawncmd
+[00:25:51] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:25:51]   Loaded.
+[00:25:51]  Loading plugin: crashdetect
+[00:25:51]   CrashDetect plugin 4.19.4
+[00:25:51]   Loaded.
+[00:25:51]  Loading plugin: pawnraknet
+[00:25:51] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:25:51]   Loaded.
+[00:25:51]  Loading plugin: streamer
+[00:25:51] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:25:51]   Loaded.
+[00:25:51]  Loading plugin: sscanf
+[00:25:51] 
+
+[00:25:51]  ===============================
+
+[00:25:51]       sscanf plugin loaded.     
+
+[00:25:51]          Version:  2.8.2        
+
+[00:25:51]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:25:51]  ===============================
+
+[00:25:51]   Loaded.
+[00:25:51]  Loading plugin: Whirlpool
+[00:25:51]  
+[00:25:51]  ==================
+[00:25:51]  
+[00:25:51]   Whirlpool loaded
+[00:25:51]  
+[00:25:51]  ==================
+[00:25:51]  
+[00:25:51]   Loaded.
+[00:25:51]  Loaded 8 plugins.
+
+[00:25:51] 
+[00:25:51] Filterscripts
+[00:25:51] ---------------
+[00:25:51]   Loaded 0 filterscripts.
+
+[00:25:51] AMX (43829416) loaded
+[00:25:51] MySQL connection is successful.
+[00:25:51] Number of vehicle models: 0
+[00:25:57] [connection] incoming connection: 127.0.0.1:51475 id: 0
+[00:25:57] [join] srysgag has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:27:13] 
+[00:27:13] Server Plugins
+[00:27:13] --------------
+[00:27:13]  Loading plugin: mysql
+[00:27:13]  >> plugin.mysql: R41-4 successfully loaded.
+[00:27:13]   Loaded.
+[00:27:13]  Loading plugin: CEFix
+[00:27:13]  =======================================
+[00:27:13]   ** Color Embed by Aktah loaded
+[00:27:13]  =======================================
+[00:27:13]   Loaded.
+[00:27:13]  Loading plugin: pawncmd
+[00:27:13] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:27:13]   Loaded.
+[00:27:13]  Loading plugin: crashdetect
+[00:27:13]   CrashDetect plugin 4.19.4
+[00:27:13]   Loaded.
+[00:27:13]  Loading plugin: pawnraknet
+[00:27:13] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:27:13]   Loaded.
+[00:27:13]  Loading plugin: streamer
+[00:27:13] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:27:13]   Loaded.
+[00:27:13]  Loading plugin: sscanf
+[00:27:13] 
+
+[00:27:13]  ===============================
+
+[00:27:13]       sscanf plugin loaded.     
+
+[00:27:13]          Version:  2.8.2        
+
+[00:27:13]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:27:13]  ===============================
+
+[00:27:13]   Loaded.
+[00:27:13]  Loading plugin: Whirlpool
+[00:27:13]  
+[00:27:13]  ==================
+[00:27:13]  
+[00:27:13]   Whirlpool loaded
+[00:27:13]  
+[00:27:13]  ==================
+[00:27:13]  
+[00:27:13]   Loaded.
+[00:27:13]  Loaded 8 plugins.
+
+[00:27:13] 
+[00:27:13] Filterscripts
+[00:27:13] ---------------
+[00:27:13]   Loaded 0 filterscripts.
+
+[00:27:13] AMX (43436200) loaded
+[00:27:13] MySQL connection is successful.
+[00:27:13] Number of vehicle models: 0
+[00:27:21] [connection] incoming connection: 127.0.0.1:53703 id: 0
+[00:27:31] [connection] incoming connection: 127.0.0.1:53708 id: 0
+[00:27:31] [join] srysgag has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:29:11] 
+[00:29:11] Server Plugins
+[00:29:11] --------------
+[00:29:11]  Loading plugin: mysql
+[00:29:11]  >> plugin.mysql: R41-4 successfully loaded.
+[00:29:11]   Loaded.
+[00:29:11]  Loading plugin: CEFix
+[00:29:11]  =======================================
+[00:29:11]   ** Color Embed by Aktah loaded
+[00:29:11]  =======================================
+[00:29:11]   Loaded.
+[00:29:11]  Loading plugin: pawncmd
+[00:29:11] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:29:11]   Loaded.
+[00:29:11]  Loading plugin: crashdetect
+[00:29:11]   CrashDetect plugin 4.19.4
+[00:29:11]   Loaded.
+[00:29:11]  Loading plugin: pawnraknet
+[00:29:11] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:29:11]   Loaded.
+[00:29:11]  Loading plugin: streamer
+[00:29:11] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:29:11]   Loaded.
+[00:29:11]  Loading plugin: sscanf
+[00:29:11] 
+
+[00:29:11]  ===============================
+
+[00:29:11]       sscanf plugin loaded.     
+
+[00:29:11]          Version:  2.8.2        
+
+[00:29:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:29:11]  ===============================
+
+[00:29:11]   Loaded.
+[00:29:11]  Loading plugin: Whirlpool
+[00:29:11]  
+[00:29:11]  ==================
+[00:29:11]  
+[00:29:11]   Whirlpool loaded
+[00:29:11]  
+[00:29:11]  ==================
+[00:29:11]  
+[00:29:11]   Loaded.
+[00:29:11]  Loaded 8 plugins.
+
+[00:29:11] 
+[00:29:11] Filterscripts
+[00:29:11] ---------------
+[00:29:11]   Loaded 0 filterscripts.
+
+[00:29:11] AMX (45205672) loaded
+[00:29:11] MySQL connection is successful.
+[00:29:11] Number of vehicle models: 0
+[00:29:17] [connection] incoming connection: 127.0.0.1:51143 id: 0
+[00:29:17] [join] srysgag has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:51:45] 
+[00:51:45] Server Plugins
+[00:51:45] --------------
+[00:51:45]  Loading plugin: mysql
+[00:51:45]  >> plugin.mysql: R41-4 successfully loaded.
+[00:51:45]   Loaded.
+[00:51:45]  Loading plugin: CEFix
+[00:51:45]  =======================================
+[00:51:45]   ** Color Embed by Aktah loaded
+[00:51:45]  =======================================
+[00:51:45]   Loaded.
+[00:51:45]  Loading plugin: pawncmd
+[00:51:45] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:51:45]   Loaded.
+[00:51:45]  Loading plugin: crashdetect
+[00:51:45]   CrashDetect plugin 4.19.4
+[00:51:45]   Loaded.
+[00:51:45]  Loading plugin: pawnraknet
+[00:51:45] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:51:45]   Loaded.
+[00:51:45]  Loading plugin: streamer
+[00:51:45] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:51:45]   Loaded.
+[00:51:45]  Loading plugin: sscanf
+[00:51:45] 
+
+[00:51:45]  ===============================
+
+[00:51:45]       sscanf plugin loaded.     
+
+[00:51:45]          Version:  2.8.2        
+
+[00:51:45]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:51:45]  ===============================
+
+[00:51:45]   Loaded.
+[00:51:45]  Loading plugin: Whirlpool
+[00:51:45]  
+[00:51:45]  ==================
+[00:51:45]  
+[00:51:45]   Whirlpool loaded
+[00:51:45]  
+[00:51:45]  ==================
+[00:51:45]  
+[00:51:45]   Loaded.
+[00:51:45]  Loaded 8 plugins.
+
+[00:51:45] 
+[00:51:45] Filterscripts
+[00:51:45] ---------------
+[00:51:45]   Loaded 0 filterscripts.
+
+[00:51:45] AMX (44681384) loaded
+[00:51:45] MySQL connection is successful.
+[00:51:45] Number of vehicle models: 0
+[00:52:03] [connection] incoming connection: 127.0.0.1:50886 id: 0
+[00:52:03] [join] srysgag has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:55:53] 
+[00:55:53] Server Plugins
+[00:55:53] --------------
+[00:55:53]  Loading plugin: mysql
+[00:55:53]  >> plugin.mysql: R41-4 successfully loaded.
+[00:55:53]   Loaded.
+[00:55:53]  Loading plugin: CEFix
+[00:55:53]  =======================================
+[00:55:53]   ** Color Embed by Aktah loaded
+[00:55:53]  =======================================
+[00:55:53]   Loaded.
+[00:55:53]  Loading plugin: pawncmd
+[00:55:53] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:55:53]   Loaded.
+[00:55:53]  Loading plugin: crashdetect
+[00:55:53]   CrashDetect plugin 4.19.4
+[00:55:53]   Loaded.
+[00:55:53]  Loading plugin: pawnraknet
+[00:55:53] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:55:53]   Loaded.
+[00:55:53]  Loading plugin: streamer
+[00:55:53] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:55:53]   Loaded.
+[00:55:53]  Loading plugin: sscanf
+[00:55:53] 
+
+[00:55:53]  ===============================
+
+[00:55:53]       sscanf plugin loaded.     
+
+[00:55:53]          Version:  2.8.2        
+
+[00:55:53]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:55:53]  ===============================
+
+[00:55:53]   Loaded.
+[00:55:53]  Loading plugin: Whirlpool
+[00:55:53]  
+[00:55:53]  ==================
+[00:55:53]  
+[00:55:53]   Whirlpool loaded
+[00:55:53]  
+[00:55:53]  ==================
+[00:55:53]  
+[00:55:53]   Loaded.
+[00:55:53]  Loaded 8 plugins.
+
+[00:55:53] 
+[00:55:53] Filterscripts
+[00:55:53] ---------------
+[00:55:53]   Loaded 0 filterscripts.
+
+[00:55:53] AMX (44550312) loaded
+[00:55:53] MySQL connection is successful.
+[00:55:53] Number of vehicle models: 0
+[00:55:59] [connection] incoming connection: 127.0.0.1:56167 id: 0
+[00:55:59] [join] srysgag has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:59:20] 
+[00:59:20] Server Plugins
+[00:59:20] --------------
+[00:59:20]  Loading plugin: mysql
+[00:59:20]  >> plugin.mysql: R41-4 successfully loaded.
+[00:59:20]   Loaded.
+[00:59:20]  Loading plugin: CEFix
+[00:59:20]  =======================================
+[00:59:20]   ** Color Embed by Aktah loaded
+[00:59:20]  =======================================
+[00:59:20]   Loaded.
+[00:59:20]  Loading plugin: pawncmd
+[00:59:20] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[00:59:20]   Loaded.
+[00:59:20]  Loading plugin: crashdetect
+[00:59:20]   CrashDetect plugin 4.19.4
+[00:59:20]   Loaded.
+[00:59:20]  Loading plugin: pawnraknet
+[00:59:20] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[00:59:20]   Loaded.
+[00:59:20]  Loading plugin: streamer
+[00:59:20] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[00:59:20]   Loaded.
+[00:59:20]  Loading plugin: sscanf
+[00:59:20] 
+
+[00:59:20]  ===============================
+
+[00:59:20]       sscanf plugin loaded.     
+
+[00:59:20]          Version:  2.8.2        
+
+[00:59:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:59:20]  ===============================
+
+[00:59:20]   Loaded.
+[00:59:20]  Loading plugin: Whirlpool
+[00:59:20]  
+[00:59:20]  ==================
+[00:59:20]  
+[00:59:20]   Whirlpool loaded
+[00:59:20]  
+[00:59:20]  ==================
+[00:59:20]  
+[00:59:20]   Loaded.
+[00:59:20]  Loaded 8 plugins.
+
+[00:59:20] 
+[00:59:20] Filterscripts
+[00:59:20] ---------------
+[00:59:20]   Loaded 0 filterscripts.
+
+[00:59:20] AMX (43555232) loaded
+[00:59:20] MySQL connection is successful.
+[00:59:20] Number of vehicle models: 0
+[00:59:30] [connection] incoming connection: 127.0.0.1:65196 id: 0
+[00:59:30] [join] srysgag has joined the server (0:127.0.0.1)
+Console input: exit
+[01:01:37] --- Server Shutting Down.
+[01:01:37] [part] srysgag has left the server (0:0)
+[01:01:37] plugin.mysql: Unloading plugin...
+[01:01:37] plugin.mysql: Plugin unloaded.
+[01:01:37]  =======================================
+[01:01:37]   ** Color Embed by Aktah unloaded
+[01:01:37]  =======================================
+[01:01:37] Pawn.CMD plugin v3.2.0 by urShadow has been unloaded
+[01:01:37] Pawn.RakNet plugin v1.2.0 by urShadow unloaded
+[01:01:37] 
+
+*** Streamer Plugin v2.9.3 by Incognito unloaded ***
+
+[01:01:37] 
+
+[01:01:37]  ===============================
+
+[01:01:37]      sscanf plugin unloaded.    
+
+[01:01:37]  ===============================
+
+[01:01:37]  
+[01:01:37]  ====================
+[01:01:37]  
+[01:01:37]   Whirlpool unloaded
+[01:01:37]  
+[01:01:37]  ====================
+[01:01:37]  
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:02:05] 
+[01:02:05] Server Plugins
+[01:02:05] --------------
+[01:02:05]  Loading plugin: mysql
+[01:02:05]  >> plugin.mysql: R41-4 successfully loaded.
+[01:02:05]   Loaded.
+[01:02:05]  Loading plugin: CEFix
+[01:02:05]  =======================================
+[01:02:05]   ** Color Embed by Aktah loaded
+[01:02:05]  =======================================
+[01:02:05]   Loaded.
+[01:02:05]  Loading plugin: pawncmd
+[01:02:05] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:02:05]   Loaded.
+[01:02:05]  Loading plugin: crashdetect
+[01:02:05]   CrashDetect plugin 4.19.4
+[01:02:05]   Loaded.
+[01:02:05]  Loading plugin: pawnraknet
+[01:02:05] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[01:02:05]   Loaded.
+[01:02:05]  Loading plugin: streamer
+[01:02:05] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[01:02:05]   Loaded.
+[01:02:05]  Loading plugin: sscanf
+[01:02:05] 
+
+[01:02:05]  ===============================
+
+[01:02:05]       sscanf plugin loaded.     
+
+[01:02:05]          Version:  2.8.2        
+
+[01:02:05]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:02:05]  ===============================
+
+[01:02:05]   Loaded.
+[01:02:05]  Loading plugin: Whirlpool
+[01:02:05]  
+[01:02:05]  ==================
+[01:02:05]  
+[01:02:05]   Whirlpool loaded
+[01:02:05]  
+[01:02:05]  ==================
+[01:02:05]  
+[01:02:05]   Loaded.
+[01:02:05]  Loaded 8 plugins.
+
+[01:02:05] 
+[01:02:05] Filterscripts
+[01:02:05] ---------------
+[01:02:05]   Loaded 0 filterscripts.
+
+[01:02:05] AMX (44079520) loaded
+[01:02:05] MySQL connection is successful.
+[01:02:05] Number of vehicle models: 0
+[01:02:37] [connection] incoming connection: 127.0.0.1:56894 id: 0
+[01:02:37] [join] srysgag has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:08:52] 
+[01:08:52] Server Plugins
+[01:08:52] --------------
+[01:08:52]  Loading plugin: mysql
+[01:08:52]  >> plugin.mysql: R41-4 successfully loaded.
+[01:08:52]   Loaded.
+[01:08:52]  Loading plugin: CEFix
+[01:08:52]  =======================================
+[01:08:52]   ** Color Embed by Aktah loaded
+[01:08:52]  =======================================
+[01:08:52]   Loaded.
+[01:08:52]  Loading plugin: pawncmd
+[01:08:52] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:08:52]   Loaded.
+[01:08:52]  Loading plugin: crashdetect
+[01:08:52]   CrashDetect plugin 4.19.4
+[01:08:52]   Loaded.
+[01:08:52]  Loading plugin: pawnraknet
+[01:08:52] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[01:08:52]   Loaded.
+[01:08:52]  Loading plugin: streamer
+[01:08:52] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[01:08:52]   Loaded.
+[01:08:52]  Loading plugin: sscanf
+[01:08:52] 
+
+[01:08:52]  ===============================
+
+[01:08:52]       sscanf plugin loaded.     
+
+[01:08:52]          Version:  2.8.2        
+
+[01:08:52]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:08:52]  ===============================
+
+[01:08:52]   Loaded.
+[01:08:52]  Loading plugin: Whirlpool
+[01:08:52]  
+[01:08:52]  ==================
+[01:08:52]  
+[01:08:52]   Whirlpool loaded
+[01:08:52]  
+[01:08:52]  ==================
+[01:08:52]  
+[01:08:52]   Loaded.
+[01:08:52]  Loaded 8 plugins.
+
+[01:08:52] 
+[01:08:52] Filterscripts
+[01:08:52] ---------------
+[01:08:52]   Loaded 0 filterscripts.
+
+[01:08:52] AMX (43882912) loaded
+[01:08:52] MySQL connection is successful.
+[01:08:52] Number of vehicle models: 0
+[01:09:10] [connection] incoming connection: 127.0.0.1:49414 id: 0
+[01:09:11] [join] srysgag has joined the server (0:127.0.0.1)
+Console input: sa
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:10:06] 
+[01:10:06] Server Plugins
+[01:10:06] --------------
+[01:10:06]  Loading plugin: mysql
+[01:10:06]  >> plugin.mysql: R41-4 successfully loaded.
+[01:10:06]   Loaded.
+[01:10:06]  Loading plugin: CEFix
+[01:10:06]  =======================================
+[01:10:06]   ** Color Embed by Aktah loaded
+[01:10:06]  =======================================
+[01:10:06]   Loaded.
+[01:10:06]  Loading plugin: pawncmd
+[01:10:06] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:10:06]   Loaded.
+[01:10:06]  Loading plugin: crashdetect
+[01:10:06]   CrashDetect plugin 4.19.4
+[01:10:06]   Loaded.
+[01:10:06]  Loading plugin: pawnraknet
+[01:10:06] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[01:10:06]   Loaded.
+[01:10:06]  Loading plugin: streamer
+[01:10:06] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[01:10:06]   Loaded.
+[01:10:06]  Loading plugin: sscanf
+[01:10:06] 
+
+[01:10:06]  ===============================
+
+[01:10:06]       sscanf plugin loaded.     
+
+[01:10:06]          Version:  2.8.2        
+
+[01:10:06]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:10:06]  ===============================
+
+[01:10:06]   Loaded.
+[01:10:06]  Loading plugin: Whirlpool
+[01:10:06]  
+[01:10:06]  ==================
+[01:10:06]  
+[01:10:06]   Whirlpool loaded
+[01:10:06]  
+[01:10:06]  ==================
+[01:10:06]  
+[01:10:06]   Loaded.
+[01:10:06]  Loaded 8 plugins.
+
+[01:10:06] 
+[01:10:06] Filterscripts
+[01:10:06] ---------------
+[01:10:06]   Loaded 0 filterscripts.
+
+[01:10:06] AMX (43882912) loaded
+[01:10:06] MySQL connection is successful.
+[01:10:06] Number of vehicle models: 0
+[01:10:08] [connection] incoming connection: 127.0.0.1:50243 id: 0
+[01:10:08] [join] srysgag has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:11:51] 
+[01:11:51] Server Plugins
+[01:11:51] --------------
+[01:11:51]  Loading plugin: mysql
+[01:11:51]  >> plugin.mysql: R41-4 successfully loaded.
+[01:11:51]   Loaded.
+[01:11:51]  Loading plugin: CEFix
+[01:11:51]  =======================================
+[01:11:51]   ** Color Embed by Aktah loaded
+[01:11:51]  =======================================
+[01:11:51]   Loaded.
+[01:11:51]  Loading plugin: pawncmd
+[01:11:51] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:11:51]   Loaded.
+[01:11:51]  Loading plugin: crashdetect
+[01:11:51]   CrashDetect plugin 4.19.4
+[01:11:51]   Loaded.
+[01:11:51]  Loading plugin: pawnraknet
+[01:11:51] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[01:11:51]   Loaded.
+[01:11:51]  Loading plugin: streamer
+[01:11:51] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[01:11:51]   Loaded.
+[01:11:51]  Loading plugin: sscanf
+[01:11:51] 
+
+[01:11:51]  ===============================
+
+[01:11:51]       sscanf plugin loaded.     
+
+[01:11:51]          Version:  2.8.2        
+
+[01:11:51]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:11:51]  ===============================
+
+[01:11:51]   Loaded.
+[01:11:51]  Loading plugin: Whirlpool
+[01:11:51]  
+[01:11:51]  ==================
+[01:11:51]  
+[01:11:51]   Whirlpool loaded
+[01:11:51]  
+[01:11:51]  ==================
+[01:11:51]  
+[01:11:51]   Loaded.
+[01:11:51]  Loaded 8 plugins.
+
+[01:11:51] 
+[01:11:51] Filterscripts
+[01:11:51] ---------------
+[01:11:51]   Loaded 0 filterscripts.
+
+[01:11:51] AMX (43882912) loaded
+[01:11:51] MySQL connection is successful.
+[01:11:51] Number of vehicle models: 0
+[01:11:56] [connection] incoming connection: 127.0.0.1:51575 id: 0
+[01:11:56] [join] srysgag has joined the server (0:127.0.0.1)
+[01:12:18] [chat] [srysgag]: asd
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:23:50] 
+[01:23:50] Server Plugins
+[01:23:50] --------------
+[01:23:50]  Loading plugin: mysql
+[01:23:50]  >> plugin.mysql: R41-4 successfully loaded.
+[01:23:50]   Loaded.
+[01:23:50]  Loading plugin: CEFix
+[01:23:50]  =======================================
+[01:23:50]   ** Color Embed by Aktah loaded
+[01:23:50]  =======================================
+[01:23:50]   Loaded.
+[01:23:50]  Loading plugin: pawncmd
+[01:23:50] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:23:50]   Loaded.
+[01:23:50]  Loading plugin: crashdetect
+[01:23:50]   CrashDetect plugin 4.19.4
+[01:23:50]   Loaded.
+[01:23:50]  Loading plugin: pawnraknet
+[01:23:50] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[01:23:50]   Loaded.
+[01:23:50]  Loading plugin: streamer
+[01:23:50] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[01:23:50]   Loaded.
+[01:23:50]  Loading plugin: sscanf
+[01:23:50] 
+
+[01:23:50]  ===============================
+
+[01:23:50]       sscanf plugin loaded.     
+
+[01:23:50]          Version:  2.8.2        
+
+[01:23:50]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:23:50]  ===============================
+
+[01:23:50]   Loaded.
+[01:23:50]  Loading plugin: Whirlpool
+[01:23:50]  
+[01:23:50]  ==================
+[01:23:50]  
+[01:23:50]   Whirlpool loaded
+[01:23:50]  
+[01:23:50]  ==================
+[01:23:50]  
+[01:23:50]   Loaded.
+[01:23:50]  Loaded 8 plugins.
+
+[01:23:50] 
+[01:23:50] Filterscripts
+[01:23:50] ---------------
+[01:23:50]   Loaded 0 filterscripts.
+
+[01:23:50] AMX (45128096) loaded
+[01:23:50] MySQL connection is successful.
+[01:23:50] Number of vehicle models: 0
+[01:23:59] [connection] incoming connection: 127.0.0.1:49629 id: 0
+[01:23:59] [join] srysgag has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:30:36] 
+[01:30:36] Server Plugins
+[01:30:36] --------------
+[01:30:36]  Loading plugin: mysql
+[01:30:36]  >> plugin.mysql: R41-4 successfully loaded.
+[01:30:36]   Loaded.
+[01:30:36]  Loading plugin: CEFix
+[01:30:36]  =======================================
+[01:30:36]   ** Color Embed by Aktah loaded
+[01:30:36]  =======================================
+[01:30:36]   Loaded.
+[01:30:36]  Loading plugin: pawncmd
+[01:30:36] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[01:30:36]   Loaded.
+[01:30:36]  Loading plugin: crashdetect
+[01:30:36]   CrashDetect plugin 4.19.4
+[01:30:36]   Loaded.
+[01:30:36]  Loading plugin: pawnraknet
+[01:30:36] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[01:30:36]   Loaded.
+[01:30:36]  Loading plugin: streamer
+[01:30:36] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[01:30:36]   Loaded.
+[01:30:36]  Loading plugin: sscanf
+[01:30:36] 
+
+[01:30:36]  ===============================
+
+[01:30:36]       sscanf plugin loaded.     
+
+[01:30:36]          Version:  2.8.2        
+
+[01:30:36]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:30:36]  ===============================
+
+[01:30:36]   Loaded.
+[01:30:36]  Loading plugin: Whirlpool
+[01:30:36]  
+[01:30:36]  ==================
+[01:30:36]  
+[01:30:36]   Whirlpool loaded
+[01:30:36]  
+[01:30:36]  ==================
+[01:30:36]  
+[01:30:36]   Loaded.
+[01:30:36]  Loaded 8 plugins.
+
+[01:30:36] 
+[01:30:36] Filterscripts
+[01:30:36] ---------------
+[01:30:36]   Loaded 0 filterscripts.
+
+[01:30:36] AMX (45193632) loaded
+[01:30:36] MySQL connection is successful.
+[01:30:36] Number of vehicle models: 0
+[01:31:21] [connection] incoming connection: 127.0.0.1:57983 id: 0
+[01:31:21] [join] srysgag has joined the server (0:127.0.0.1)

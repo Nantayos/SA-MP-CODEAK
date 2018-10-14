@@ -14,20 +14,24 @@
 		"AGraber/samp-dl-compat",
 		"samp-incognito/samp-streamer-plugin",
 		"maddinat0r/sscanf:v2.8.2",
-		"Open-GTO/foreach:v19.0"
+		"Open-GTO/foreach:v19.0",
+		"Southclaws/samp-whirlpool"
 	],
 	"runtime": {
 		"version": "0.3.7",
 		"mode": "server",
 		"echo": "-",
-		"rcon_password": "password",
+		"gamemodes": [
+			"codeak"
+		],
+		"rcon_password": "-/JaZg523/?\u003c",
 		"port": 7777,
-		"hostname": "SA-MP Server",
-		"maxplayers": 50,
-		"language": "",
+		"hostname": "SA-MP-CODEAK",
+		"maxplayers": 32,
+		"language": "TH",
 		"mapname": "San Andreas",
 		"weburl": "www.sa-mp.com",
-		"gamemodetext": "Unknown",
+		"gamemodetext": "CAKE:1.0.0",
 		"announce": true,
 		"lanmode": false,
 		"query": true,
