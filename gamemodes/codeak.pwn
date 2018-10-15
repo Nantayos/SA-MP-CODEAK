@@ -236,10 +236,9 @@ public OnPlayerSpawn(playerid) {
 		return Kick(playerid);
 	}
     TogglePlayerSpectating(playerid, false);
+
 	SetPlayerPos(playerid, 0, 0, 3);
-
 	CE_SendClientMessage(playerid, -1, "{ff0000}ยินดี{ff0040}ต้อนรับ{ff0080}เข้าสู่{ff00bf}เซิร์ฟเวอร์ {ff8000}SA-MP CODEAK");
-
 	return 1;
 }
 
