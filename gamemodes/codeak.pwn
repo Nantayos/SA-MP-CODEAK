@@ -29,7 +29,8 @@ enum PlayerData
 	Password[129],
 	Cash,
 	Kills,
-	Deaths
+	Deaths,
+	pAkOOC[91] // +1 for spaces
 };
 new PlayerInfo[MAX_PLAYERS][PlayerData];
 
@@ -209,3 +210,7 @@ CMD:fix3d(playerid, params[]) {
 	CreateDynamic3DTextLabel(string, -1, PosX, PosY, PosZ, 20.0);
 	return 1;
 }
+
+
+#include "includes/private_ooc.pwn"
+
