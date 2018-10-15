@@ -232,13 +232,13 @@ public RegisterPlayer(playerid)
 }
 
 public OnPlayerSpawn(playerid) {
+	TogglePlayerSpectating(playerid, false);
+
 	if(!PlayerInfo[playerid][isLogged]) {
 		return Kick(playerid);
 	}
-    TogglePlayerSpectating(playerid, false);
 
 	SetPlayerPos(playerid, 0, 0, 3);
-	CE_SendClientMessage(playerid, -1, "{ff0000}ยินดี{ff0040}ต้อนรับ{ff0080}เข้าสู่{ff00bf}เซิร์ฟเวอร์ {ff8000}SA-MP CODEAK");
 	return 1;
 }
 
@@ -257,27 +257,15 @@ public OnPlayerCommandPerformed(playerid, cmd[], params[], result, flags)
     return 1;
 }
 
-CMD:3d(playerid, params[]) {
+CMD:3dtext(playerid, params[]) {
 	new Float:PosX, Float:PosY, Float:PosZ;
 	GetPlayerPos(playerid, PosX, PosY, PosZ);
-
-	new string[144];
-	format(string, sizeof(string), "Dynamic 3DText: {ff0000}ยินดี{ff0040}ต้อนรับ{ff0080}เข้าสู่{ff00bf}เซิร์ฟเวอร์ {ff8000}SA-MP CODEAK");
-	CreateDynamic3DTextLabel(string, -1, PosX, PosY, PosZ, 20.0);
+	new str[144];
+	format(str, sizeof(str), "@FF0000@ทดสอบฟังก์ชั่น @00FFFF@CE_ConvertEx @FF0000@สำหรับการใช้ @FFFF00@{ @FFFFFF@และ @FFFF00@}");
+	CE_ConvertEx(str);
+	CreateDynamic3DTextLabel(str, -1, PosX, PosY, PosZ, 20.0);
 	return 1;
 }
-
-CMD:fix3d(playerid, params[]) {
-	new Float:PosX, Float:PosY, Float:PosZ;
-	GetPlayerPos(playerid, PosX, PosY, PosZ);
-
-	new string[144];
-	format(string, sizeof(string), "Fix Dynamic 3DText: {ff0000}ยินดี{ff0040}ต้อนรับ{ff0080}เข้าสู่{ff00bf}เซิร์ฟเวอร์ {ff8000}SA-MP CODEAK");
-	CE_Convert(string);
-	CreateDynamic3DTextLabel(string, -1, PosX, PosY, PosZ, 20.0);
-	return 1;
-}
-
 
 #include "includes/private_ooc.pwn"
 
