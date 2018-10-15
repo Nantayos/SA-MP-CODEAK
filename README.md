@@ -8,6 +8,6 @@
 - ระบบ Custom OOC (ภาษาไทยจำเป็นต้องมี Plugin CEFix)
 
 ## รายการระบบที่อาจนำมาให้ศึกษา
-[x] ระบบ Custom OOC
-[ ] สร้าง Faction/Group ในเกมส์ (Dynamic)
-[ ] สร้างประตูเลื่อนในเกมส์ (Dynamic)
+- [x] ระบบ Custom OOC
+- [ ] สร้าง Faction/Group ในเกมส์ (Dynamic)
+- [ ] สร้างประตูเลื่อนในเกมส์ (Dynamic)
