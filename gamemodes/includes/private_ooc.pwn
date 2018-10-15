@@ -13,6 +13,7 @@
     ** ยกเว้น Plugin CEFix ขาดไม่ได้เลยมันเป็น Highlight ของระบบนี้ !
 
     CE_Convert // แปลงข้อความให้ตรงกับสี (ไม่ควรเรียกใช้กับตัวแปรโดยตรงอาจทำให้สีเคลื่อน แนะนำให้สร้างตัวแปร String ขึ้นมาใหม่ดังตัวอย่างด้านล่าง)
+
 */
 
 CMD:customooc(playerid, params[]) {
@@ -31,7 +32,7 @@ CMD:ooc(playerid, params[]) {
     GetPlayerName(playerid, playername, MAX_PLAYER_NAME);
     format(text, sizeof text, PlayerInfo[playerid][pAkOOC]);
 
-    format(string, sizeof string, "%s%s{FFFFFF}: %s", text, playername, params); // ที่สร้าง string มา format ใหม่เพราะเราไม่จำเป็นต้องเรียกใช้ CE ทุก ๆ ครั้งที่ส่งไปให้ผู้เล่นอื่น
+    format(string, sizeof string, "%s%s:{FFFFFF} %s", text, playername, params); // ที่สร้าง string มา format ใหม่เพราะเราไม่จำเป็นต้องเรียกใช้ CE ทุก ๆ ครั้งที่ส่งไปให้ผู้เล่นอื่น
     CE_Convert(string);
 
     foreach(new i : Player) { // ลูปหาผู้เล่นทั้งหมด หรือใช้ for ก็ได้หากไม่มี foreach
@@ -66,7 +67,7 @@ Dialog:CustomOOC(playerid, response, listitem, inputtext[])
                 GetPlayerName(playerid, playername, MAX_PLAYER_NAME);
                 format(text, sizeof text, PlayerInfo[playerid][pAkOOC]);
 
-                CE_SendClientMessage(playerid, -1, "%s%s{FFFFFF}: %s", text, playername, "ฮัลโหล่ทดสอบสีหน่อย !!");
+                CE_SendClientMessage(playerid, -1, "%s%s:{FFFFFF} %s", text, playername, "ฮัลโหล่ทดสอบสีหน่อย !!");
 
                 ShowPlayerCustomOOC(playerid);
             }
