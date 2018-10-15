@@ -3,20 +3,20 @@
 	"repo": "SA-MP-CODEAK",
 	"entry": "gamemodes\\codeak.pwn",
 	"output": "gamemodes\\codeak.amx",
-	"local": true,
 	"dependencies": [
 		"sampctl/samp-stdlib",
 		"Awsomedude/easyDialog:2.0",
 		"pBlueG/SA-MP-MySQL",
-		"aktah/SAMP-CEFix",
 		"urShadow/Pawn.CMD",
 		"Zeex/samp-plugin-crashdetect",
 		"AGraber/samp-dl-compat",
 		"samp-incognito/samp-streamer-plugin",
 		"maddinat0r/sscanf:v2.8.2",
 		"Open-GTO/foreach:v19.0",
-		"Southclaws/samp-whirlpool"
+		"Southclaws/samp-whirlpool",
+		"aktah/SAMP-CEFix"
 	],
+	"local": true,
 	"runtime": {
 		"version": "0.3.7",
 		"mode": "server",
