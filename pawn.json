@@ -14,7 +14,8 @@
 		"maddinat0r/sscanf:v2.8.2",
 		"Open-GTO/foreach:v19.0",
 		"Southclaws/samp-whirlpool",
-		"aktah/SAMP-CEFix"
+		"aktah/SAMP-CEFix",
+		"pawn-lang/YSI-Includes"
 	],
 	"local": true,
 	"runtime": {

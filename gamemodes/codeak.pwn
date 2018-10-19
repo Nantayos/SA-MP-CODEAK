@@ -1,14 +1,21 @@
 
 #include <a_samp>
+
+#undef  MAX_PLAYERS
+#define MAX_PLAYERS (100)
+
+#define CE_AUTO
+
 #include <crashdetect>   // Zeex/samp-plugin-crashdetect
 #include <foreach> // Open-GTO/foreach:v19.0
 #include <sscanf2> // maddinat0r/sscanf:v2.8.2
 #include <streamer>      // samp-incognito/samp-streamer-plugin
+#include <CEFix>   // aktah/SAMP-CEFix
 #include <easyDialog> // Awsomedude/easyDialog:2.0
 #include <a_mysql> // pBlueG/SA-MP-MySQL
 #include <Pawn.CMD> // urShadow/Pawn.CMD
 #include <dl-compat> // AGraber/samp-dl-compat
-#include <CEFix>   // aktah/SAMP-CEFix
+#include <YSI\y_hooks> // pawn-lang/YSI-Includes
 
 #define MYSQL_HOSTNAME		"localhost"
 #define MYSQL_USERNAME		"root"
@@ -146,10 +153,7 @@ Dialog:DIALOG_LOGIN(playerid, response, listitem, inputtext[])
 	}
 	else
 	{
-		new str[80];
-		format(str, sizeof(str), "{FF0000}รหัสผ่านไม่ถูกต้อง!\n{FFFFFF}โปรดกรอกรหัสผ่านด้านล่างเพื่อเข้าสู่ระบบ");
-		CE_Convert(str);
-		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", str, "เข้าสู่ระบบ", "ออกจากเกมส์");
+		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "{FF0000}รหัสผ่านไม่ถูกต้อง!\n{FFFFFF}โปรดกรอกรหัสผ่านด้านล่างเพื่อเข้าเล่นในเซิร์ฟเวอร์ของเรา", "เข้าสู่ระบบ", "ออกจากเกมส์");
 	}
 	return 1;
 }
@@ -160,10 +164,7 @@ Dialog:DIALOG_REGISTER(playerid, response, listitem, inputtext[])
 		return Kick(playerid);
 
 	if(strlen(inputtext) < 3) {
-		new str[144];
-		format(str, sizeof(str), "{FF0000}รหัสผ่านสั้นเกินไป!\n{FFFFFF}ต้องใช้รหัสผ่านที่มีความยาวตั้งแต่ 3 ตัวขึ้นไป");
-		CE_Convert(str);
-		return Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", str, "สมัครสมาชิก", "ออกจากเกมส์");
+		return Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "{FF0000}รหัสผ่านสั้นเกินไป!\n{FFFFFF}ต้องใช้รหัสผ่านที่มีความยาวตั้งแต่ 3 ตัวขึ้นไป", "สมัครสมาชิก", "ออกจากเกมส์");
 	}
 	new query[300];
 	WP_Hash(PlayerInfo[playerid][Password], 129, inputtext);
@@ -176,20 +177,18 @@ Dialog:DIALOG_REGISTER(playerid, response, listitem, inputtext[])
 forward CheckPlayer(playerid);
 public CheckPlayer(playerid)
 {
-	new rows, string[150];
+	new rows;
 	cache_get_row_count(rows);
 
 	if(rows)
 	{
 		cache_get_value_name(0, "Password", PlayerInfo[playerid][Password], 129); 
 		cache_get_value_name_int(0, "ID", PlayerInfo[playerid][ID]);
-		format(string, sizeof(string), "ยินดีต้อนรับกลับ\nโปรดกรอกรหัสผ่านด้านล่างเพื่อเข้าสู่ระบบ"); 
-		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", string, "เข้าสู่ระบบ", "ออกจากเกมส์");
+		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "{FFFFFF}ยินดี{FFFF00}ต้อนรับ{FFFFFF}กลับ\nโปรดกรอกรหัสผ่านด้านล่างเพื่อเข้าสู่ระบบ", "เข้าสู่ระบบ", "ออกจากเกมส์");
 	}
 	else
 	{	
-		format(string, sizeof(string), "ยินดีต้อนรับเข้าสู่เซิร์ฟเวอร์ของเรา\nคุณจำเป็นต้องลงทะเบียนก่อนหากต้องการเข้าเล่น โดยพิมพ์รหัสผ่านของคุณด้านล่างนี้:");
-		Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", string, "สมัครสมาชิก", "ออกจากเกมส์");
+		Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "{FFFFFF}ยินดี{FFFF00}ต้อนรับ{FFFFFF}เข้าสู่{FFFF00}เซิร์ฟเวอร์{FFFFFF}ของเรา\nคุณจำเป็นต้องลงทะเบียนก่อนหากต้องการเข้าเล่น โดยพิมพ์รหัสผ่านของคุณด้านล่างนี้: ", "สมัครสมาชิก", "ออกจากเกมส์");
 	}
 	return 1;
 }
@@ -257,15 +256,5 @@ public OnPlayerCommandPerformed(playerid, cmd[], params[], result, flags)
     return 1;
 }
 
-CMD:3dtext(playerid, params[]) {
-	new Float:PosX, Float:PosY, Float:PosZ;
-	GetPlayerPos(playerid, PosX, PosY, PosZ);
-	new str[144];
-	format(str, sizeof(str), "@FF0000@ทดสอบฟังก์ชั่น @00FFFF@CE_ConvertEx @FF0000@สำหรับการใช้ @FFFF00@{ @FFFFFF@และ @FFFF00@}");
-	CE_ConvertEx(str);
-	CreateDynamic3DTextLabel(str, -1, PosX, PosY, PosZ, 20.0);
-	return 1;
-}
-
 #include "includes/private_ooc.pwn"
-
+#include "includes/fpsmode.pwn"

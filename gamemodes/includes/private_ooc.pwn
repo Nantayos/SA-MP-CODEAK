@@ -14,6 +14,8 @@
 
     CE_Convert // แปลงข้อความให้ตรงกับสี (ไม่ควรเรียกใช้กับตัวแปรโดยตรงอาจทำให้สีเคลื่อน แนะนำให้สร้างตัวแปร String ขึ้นมาใหม่ดังตัวอย่างด้านล่าง)
 
+
+    ** หมายเหตุ ล่าสุดเปลี่ยนมาใช้ CE_AUTO แปลงสีอัตโนมัติ
 */
 
 CMD:customooc(playerid, params[]) {
@@ -32,8 +34,7 @@ CMD:ooc(playerid, params[]) {
     GetPlayerName(playerid, playername, MAX_PLAYER_NAME);
     format(text, sizeof text, PlayerInfo[playerid][pAkOOC]);
 
-    format(string, sizeof string, "%s%s:{FFFFFF} %s", text, playername, params); // ที่สร้าง string มา format ใหม่เพราะเราไม่จำเป็นต้องเรียกใช้ CE ทุก ๆ ครั้งที่ส่งไปให้ผู้เล่นอื่น
-    CE_Convert(string);
+    format(string, sizeof string, "%s%s:{FFFFFF} %s", text, playername, params);
 
     foreach(new i : Player) { // ลูปหาผู้เล่นทั้งหมด หรือใช้ for ก็ได้หากไม่มี foreach
         SendClientMessage(i, -1, string);
@@ -47,9 +48,7 @@ ShowPlayerCustomOOC(playerid) {
     
     GetPlayerName(playerid, playername, MAX_PLAYER_NAME);
     format(text, sizeof text, "%s%s", PlayerInfo[playerid][pAkOOC], playername);
-    CE_Convert(text);
     num_color = CE_CountTag(text);
-
     format(str, sizeof str, "เมนู\tรายละเอียด\nข้อความ\t%s\nจำนวนสี\t%d\nทดสอบ\t", text, num_color);
     Dialog_Show(playerid, CustomOOC, DIALOG_STYLE_TABLIST_HEADERS, "ระบบ OOC แบบกำหนดเอง", str, "เลือก", "ยกเลิก");
     return 1;
@@ -67,7 +66,7 @@ Dialog:CustomOOC(playerid, response, listitem, inputtext[])
                 GetPlayerName(playerid, playername, MAX_PLAYER_NAME);
                 format(text, sizeof text, PlayerInfo[playerid][pAkOOC]);
 
-                CE_SendClientMessage(playerid, -1, "%s%s:{FFFFFF} %s", text, playername, "ฮัลโหล่ทดสอบสีหน่อย !!");
+                SendClientMessage(playerid, -1, "%s%s:{FFFFFF} %s", text, playername, "ฮัลโหล่ทดสอบสีหน่อย !!");
 
                 ShowPlayerCustomOOC(playerid);
             }
@@ -85,14 +84,15 @@ Dialog:EditCustomOOC(playerid, response, listitem, inputtext[])
         return ShowPlayerCustomOOC(playerid);
 
     new len = strlen(inputtext);
-    if(len >= 90 || len <= 0) {
-        new str[128];
-        format(str, sizeof str, "{DC143C}ERROR:{FFFFFF} ความยาวโดยรวมต้องไม่เกิน{FFD700} 90 {FFFFFF}ตัวอักษร\n\nเขียนข้อความที่ต้องการด้านล่างนี้:");
-        CE_Convert(str);
-        Dialog_Show(playerid, EditCustomOOC, DIALOG_STYLE_INPUT, "ปรับแต่ง OOC ส่วนตัว", str, "ปรับแต่ง", "ยกเลิก");
+    if(len >= 90) {
+        Dialog_Show(playerid, EditCustomOOC, DIALOG_STYLE_INPUT, "ปรับแต่ง OOC ส่วนตัว", "{DC143C}ERROR:{FFFFFF} ความยาวโดยรวมต้องไม่เกิน{FFD700} 90 {FFFFFF}ตัวอักษร\n\nเขียนข้อความที่ต้องการด้านล่างนี้:", "ปรับแต่ง", "ยกเลิก");
         return 1;
     }
-
-    format(PlayerInfo[playerid][pAkOOC], 91, "%s ", inputtext);
+    if(len) {
+        format(PlayerInfo[playerid][pAkOOC], 91, "%s ", inputtext);
+    }
+    else {
+        PlayerInfo[playerid][pAkOOC][0] = '\0';
+    }
     return ShowPlayerCustomOOC(playerid);
 }
