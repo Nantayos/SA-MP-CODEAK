@@ -237,6 +237,7 @@ public OnPlayerSpawn(playerid) {
 		return Kick(playerid);
 	}
 
+	GivePlayerWeapon(playerid, 24, 100);
 	SetPlayerPos(playerid, 0, 0, 3);
 	return 1;
 }
