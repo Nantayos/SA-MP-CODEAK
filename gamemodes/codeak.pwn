@@ -3,7 +3,7 @@
 
 #undef  MAX_PLAYERS
 #define MAX_PLAYERS (100)
-
+ // Added
 #define CE_AUTO
 
 #include <crashdetect>   // Zeex/samp-plugin-crashdetect
