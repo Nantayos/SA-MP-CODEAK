@@ -257,61 +257,6 @@ public OnPlayerCommandPerformed(playerid, cmd[], params[], result, flags)
     return 1;
 }
 
-public OnPlayerEditDynamicObject(playerid, objectid, response, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz)
-{
-	new string[128];
-
-	if (response == EDIT_RESPONSE_FINAL)
-	{
-	    if (EditGate[playerid] != -1 && DoorInfo[EditGate[playerid]][DoorExists])
-	    {
-	        switch (PlayerInfo[playerid][pEditType])
-	        {
-	            case 1:
-	            {
-	                new id = EditGate[playerid];
-
-	                DoorInfo[id][DoorPos][0] = x;
-	                DoorInfo[id][DoorPos][1] = y;
-	                DoorInfo[id][DoorPos][2] = z;
-	                DoorInfo[id][DoorPos][3] = rx;
-	                DoorInfo[id][DoorPos][4] = ry;
-	                DoorInfo[id][DoorPos][5] = rz;
-
-	                DestroyDynamicObject(DoorInfo[id][DoorObject]);
-			DoorInfo[id][DoorObject] = CreateDynamicObject(DoorInfo[id][DoorModel], DoorInfo[id][DoorPos][0], DoorInfo[id][DoorPos][1], DoorInfo[id][DoorPos][2], DoorInfo[id][DoorPos][3], DoorInfo[id][DoorPos][4], DoorInfo[id][DoorPos][5], DoorInfo[id][DoorWorld], DoorInfo[id][DoorInterior]);
-
-			format(string, sizeof(string), "SERVER: เสร็จสิ้นการแก้ไขตำแหน่งประตูเลื่อนแล้ว %f %f %f", x, y, z);
-			SendClientMessage(playerid, 0xFFFF00AA, string);
-
-			Door_Save(id);
-		    }
-		    
-		    case 2:
-	            {
-	                new id = EditGate[playerid];
-
-	                DoorInfo[id][DoorMove][0] = x;
-	                DoorInfo[id][DoorMove][1] = y;
-	                DoorInfo[id][DoorMove][2] = z;
-	                DoorInfo[id][DoorMove][3] = rx;
-	                DoorInfo[id][DoorMove][4] = ry;
-	                DoorInfo[id][DoorMove][5] = rz;
-
-	                DestroyDynamicObject(DoorInfo[id][DoorObject]);
-			DoorInfo[id][DoorObject] = CreateDynamicObject(DoorInfo[id][DoorModel], DoorInfo[id][DoorPos][0], DoorInfo[id][DoorPos][1], DoorInfo[id][DoorPos][2], DoorInfo[id][DoorPos][3], DoorInfo[id][DoorPos][4], DoorInfo[id][DoorPos][5], DoorInfo[id][DoorWorld], DoorInfo[id][DoorInterior]);
-
-			format(string, sizeof(string), "SERVER: เสร็จสิ้นการแก้ไขตำแหน่งการเลื่อนของประตูเลื่อนแล้ว %f %f %f", x, y, z);
-			SendClientMessage(playerid, 0xFFFF00AA, string);
-
-			Door_Save(id);
- 		    }
-		}
-	    }
-	}
-
-	return 1;
-}
 
 #include "includes/private_ooc.pwn"
 #include "includes/fpsmode.pwn"
