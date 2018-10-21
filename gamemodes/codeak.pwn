@@ -153,7 +153,7 @@ Dialog:DIALOG_LOGIN(playerid, response, listitem, inputtext[])
 	}
 	else
 	{
-		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "{FF0000}���ʼ�ҹ���١��ͧ!\n{FFFFFF}�ô��͡���ʼ�ҹ��ҹ��ҧ��������������������ͧ���", "�������к�", "�͡�ҡ����");
+		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "{FF0000}ÃËÑÊ¼èÒ¹äÁè¶Ù¡µéÍ§!\n{FFFFFF}â»Ã´¡ÃÍ¡ÃËÑÊ¼èÒ¹´éÒ¹ÅèÒ§à¾×èÍà¢éÒàÅè¹ã¹à«ÔÃì¿àÇÍÃì¢Í§àÃÒ", "à¢éÒÊÙèÃÐºº", "ÍÍ¡¨Ò¡à¡ÁÊì");
 	}
 	return 1;
 }
@@ -164,7 +164,7 @@ Dialog:DIALOG_REGISTER(playerid, response, listitem, inputtext[])
 		return Kick(playerid);
 
 	if(strlen(inputtext) < 3) {
-		return Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "{FF0000}���ʼ�ҹ����Թ�!\n{FFFFFF}��ͧ�����ʼ�ҹ����դ�����ǵ���� 3 ��Ǣ���", "��Ѥ���Ҫԡ", "�͡�ҡ����");
+		return Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "{FF0000}ÃËÑÊ¼èÒ¹ÊÑé¹à¡Ô¹ä»!\n{FFFFFF}µéÍ§ãªéÃËÑÊ¼èÒ¹·ÕèÁÕ¤ÇÒÁÂÒÇµÑé§áµè 3 µÑÇ¢Öé¹ä»", "ÊÁÑ¤ÃÊÁÒªÔ¡", "ÍÍ¡¨Ò¡à¡ÁÊì");
 	}
 	new query[300];
 	WP_Hash(PlayerInfo[playerid][Password], 129, inputtext);
@@ -184,11 +184,11 @@ public CheckPlayer(playerid)
 	{
 		cache_get_value_name(0, "Password", PlayerInfo[playerid][Password], 129); 
 		cache_get_value_name_int(0, "ID", PlayerInfo[playerid][ID]);
-		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "{FFFFFF}�Թ��{FFFF00}��͹�Ѻ{FFFFFF}��Ѻ\n�ô��͡���ʼ�ҹ��ҹ��ҧ�����������к�", "�������к�", "�͡�ҡ����");
+		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "{FFFFFF}ÂÔ¹´Õ{FFFF00}µéÍ¹ÃÑº{FFFFFF}¡ÅÑº\nâ»Ã´¡ÃÍ¡ÃËÑÊ¼èÒ¹´éÒ¹ÅèÒ§à¾×èÍà¢éÒÊÙèÃÐºº", "à¢éÒÊÙèÃÐºº", "ÍÍ¡¨Ò¡à¡ÁÊì");
 	}
 	else
 	{	
-		Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "{FFFFFF}�Թ��{FFFF00}��͹�Ѻ{FFFFFF}������{FFFF00}���������{FFFFFF}�ͧ���\n�س���繵�ͧŧ����¹��͹�ҡ��ͧ��������� �¾�������ʼ�ҹ�ͧ�س��ҹ��ҧ���: ", "��Ѥ���Ҫԡ", "�͡�ҡ����");
+		Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "{FFFFFF}ÂÔ¹´Õ{FFFF00}µéÍ¹ÃÑº{FFFFFF}à¢éÒÊÙè{FFFF00}à«ÔÃì¿àÇÍÃì{FFFFFF}¢Í§àÃÒ\n¤Ø³¨Óà»ç¹µéÍ§Å§·ÐàºÕÂ¹¡èÍ¹ËÒ¡µéÍ§¡ÒÃà¢éÒàÅè¹ â´Â¾ÔÁ¾ìÃËÑÊ¼èÒ¹¢Í§¤Ø³´éÒ¹ÅèÒ§¹Õé: ", "ÊÁÑ¤ÃÊÁÒªÔ¡", "ÍÍ¡¨Ò¡à¡ÁÊì");
 	}
 	return 1;
 }
@@ -251,10 +251,66 @@ public OnPlayerCommandPerformed(playerid, cmd[], params[], result, flags)
 {
     if(result == -1)
     {
-        SendClientMessage(playerid, -1, "{00FFFF}ERROR: {FFFFFF}�Դ��ͼԴ��Ҵ㹡��������");
+        SendClientMessage(playerid, -1, "{00FFFF}ERROR: {FFFFFF}à¡Ô´¢éÍ¼Ô´¾ÅÒ´ã¹¡ÒÃãªé¤ÓÊÑè§");
         return 0;
     }
     return 1;
+}
+
+public OnPlayerEditDynamicObject(playerid, objectid, response, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz)
+{
+	new string[128];
+
+	if (response == EDIT_RESPONSE_FINAL)
+	{
+	    if (EditGate[playerid] != -1 && DoorInfo[EditGate[playerid]][DoorExists])
+	    {
+	        switch (PlayerInfo[playerid][pEditType])
+	        {
+	            case 1:
+	            {
+	                new id = EditGate[playerid];
+
+	                DoorInfo[id][DoorPos][0] = x;
+	                DoorInfo[id][DoorPos][1] = y;
+	                DoorInfo[id][DoorPos][2] = z;
+	                DoorInfo[id][DoorPos][3] = rx;
+	                DoorInfo[id][DoorPos][4] = ry;
+	                DoorInfo[id][DoorPos][5] = rz;
+
+	                DestroyDynamicObject(DoorInfo[id][DoorObject]);
+			DoorInfo[id][DoorObject] = CreateDynamicObject(DoorInfo[id][DoorModel], DoorInfo[id][DoorPos][0], DoorInfo[id][DoorPos][1], DoorInfo[id][DoorPos][2], DoorInfo[id][DoorPos][3], DoorInfo[id][DoorPos][4], DoorInfo[id][DoorPos][5], DoorInfo[id][DoorWorld], DoorInfo[id][DoorInterior]);
+
+			format(string, sizeof(string), "SERVER: เสร็จสิ้นการแก้ไขตำแหน่งประตูเลื่อนแล้ว %f %f %f", x, y, z);
+			SendClientMessage(playerid, 0xFFFF00AA, string);
+
+			Door_Save(id);
+		    }
+		    
+		    case 2:
+	            {
+	                new id = EditGate[playerid];
+
+	                DoorInfo[id][DoorMove][0] = x;
+	                DoorInfo[id][DoorMove][1] = y;
+	                DoorInfo[id][DoorMove][2] = z;
+	                DoorInfo[id][DoorMove][3] = rx;
+	                DoorInfo[id][DoorMove][4] = ry;
+	                DoorInfo[id][DoorMove][5] = rz;
+
+	                DestroyDynamicObject(DoorInfo[id][DoorObject]);
+			DoorInfo[id][DoorObject] = CreateDynamicObject(DoorInfo[id][DoorModel], DoorInfo[id][DoorPos][0], DoorInfo[id][DoorPos][1], DoorInfo[id][DoorPos][2], DoorInfo[id][DoorPos][3], DoorInfo[id][DoorPos][4], DoorInfo[id][DoorPos][5], DoorInfo[id][DoorWorld], DoorInfo[id][DoorInterior]);
+
+			format(string, sizeof(string), "SERVER: เสร็จสิ้นการแก้ไขตำแหน่งการเลื่อนของประตูเลื่อนแล้ว %f %f %f", x, y, z);
+			SendClientMessage(playerid, 0xFFFF00AA, string);
+
+			Door_Save(id);
+ 		    }
+		}
+	    }
+	}
+
+	return 1;
 }
 
 #include "includes/private_ooc.pwn"
