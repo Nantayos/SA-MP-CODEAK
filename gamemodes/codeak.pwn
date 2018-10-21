@@ -316,3 +316,9 @@ public OnPlayerEditDynamicObject(playerid, objectid, response, Float:x, Float:y,
 #include "includes/private_ooc.pwn"
 #include "includes/fpsmode.pwn"
 #include "includes/movedoor.pwn" // Added - Movedoor.pwn
+
+/*
+
+	ขอบคุณแนวทาวจาก SC:RP
+
+*/
