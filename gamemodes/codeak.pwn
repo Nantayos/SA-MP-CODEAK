@@ -257,7 +257,6 @@ public OnPlayerCommandPerformed(playerid, cmd[], params[], result, flags)
     return 1;
 }
 
-
 #include "includes/private_ooc.pwn"
 #include "includes/fpsmode.pwn"
 #include "includes/movedoor.pwn" 
